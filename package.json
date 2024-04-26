@@ -1,0 +1,20 @@
+{
+  "name": "entregaactividad4",
+  "version": "1.0.0",
+  "description": "El Valor de una Madre: Explorando el Impacto Emocional y los Cambios de Vida en la Crianza de un Niño con Síndrome de Down.\r ## Descripcion\r En esta página web, exploramos el poderoso vínculo entre una madre y su hijo, especialmente cuando este último tiene Síndrome de Down. Desde las emociones profundas hasta los sacrificios inquebrantables, nos sumergimos en la experiencia única de las madres que enfrentan los desafíos y cambios en su estilo de vida al criar a un niño con necesidades especiales.\r En esta pagina tenemos la intención de crear una comunidad para todas las madres que están criando a niños con Síndrome de Down. Creemos en el poder del amor, la empatía y la comprensión para superar cualquier obstáculo y celebrar cada hito en este viaje extraordinario de la maternidad.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Lucila Vargas Garay",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
