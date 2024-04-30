@@ -1,0 +1,13 @@
+
+### obtener todos los usuarios (peticion GET)
+GET http://localhost:9000/api/obtenerUsuario
+
+### crear todos los usuarios (crear POST)
+POST  http://localhost:9000/api/crearUsuario
+
+### modificar usuarios por id (modificar PUT)
+PUT  http://localhost:9000/api/modificarUsuario/:id
+
+
+### eliminar usuarios por id (eliminar- DELETE)
+DELETE  http://localhost:9000/api/eliminarUsuario/:id
