@@ -4,8 +4,8 @@
 }
 
 body {
-    color: rgb(188, 220, 241);
-    background-color: rgb(4, 123, 128);
+    color: rgb(218, 245, 143);
+    background-color: rgb(2, 100, 104);
     width: 100%;
     overflow-x: hidden;
     font-size: 25px;
@@ -16,7 +16,7 @@ body {
 
 /* Estilos para la encabezado */
 header {
-    background-color: #c3f787;
+    background-color: #02607c;
     /* Color de fondo */
     padding: 30px;
     /* Espaciado interno */
@@ -72,14 +72,6 @@ header {
     /* Espacio inferior */
 }
 
-.titulo {
-    color: yellow;
-    /* Color del texto */
-    text-align: center;
-    /* Alinear texto al centro */
-    font-family: Arial, sans-serif;
-    /* Tipo de letra */
-}
 
 .contenedorInformacion {
     max-width: 800px;
@@ -101,37 +93,13 @@ header {
 
 /* Estilos para el pie de página */
 footer {
-    color: #333;
+    color: #f7f0f0;
     /* Color de fondo del */
     padding: 20px;
     /* Espaciado interno */
     text-align: center;
     /* Alinear texto al centro */
-    background-color: #c3f787;
-}
-
-.redeSociales {
-    list-style-type: none;
-    /* Eliminar viñetas */
-    padding: 0;
-    color: #3e0146;
-    /* Color del texto */
-}
-
-.redeSociales li {
-    display: inline-block;
-    /* Mostrar elementos en línea */
-    margin-right: 10px;
-    /* Espacio entre elementos */
-    color: #3e0146;
-    /* Color del texto */
-}
-
-.redeSociales li a {
-    text-decoration: none;
-    /* Eliminar subrayado de enlaces */
-    color: #3e0146;
-    /* Color del texto */
+    background-color: #043e42;
 }
 
 .informacion1 p {
@@ -177,5 +145,8 @@ margin-bottom: 10px;
 footer {
 /*REduce espacios del pie de pagina*/
 padding: 15px; 
+    }
+    .footer-text {
+        color: white;
     }
   }

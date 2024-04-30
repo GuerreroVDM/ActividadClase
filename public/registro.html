@@ -3,24 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/public/styles/registro.css">
+    <title>Registro</title>
+
 
     <!--Vinculo mi archivo de registro java script-->
-    <script src="/"></script>
+    <script src="/public/scripts/registro.js" defer></script>
+    
  
 </head>
 <body>
-    <h1>soy la pagina de registro</h1>
+    
+        <div class="contenedorOk">
+        <header>
+            <nav class="menuNavegacion">
+    
+                <img class="logo" src="./EntregaActividad4/assets/LogoSD.PNG" alt="logo">
+    
+                <!-- OL Etiqueta para lista desordenada -->
+                <ul class="navegacion">
+                    <!-- LI Etiqueta para elemento de una lista -->
+                    <!-- A Etiqueta que me referencia a otros links -->
+                    <li><a href="/public/sindromeDeDown.html">Madres Síndrome de Down</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=x_7A-iowjEc">La vida en Down</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=vJPhufFC5yA">Para reflexionar</a></li>
+                    <li><a href="/public/ingreso.html">Ingreso</a></li>
+                    <li><a href="/public/registro.html">Registro</a></li>
+                </ul>
+            </nav>
+        </header>    
+<!--procedo a colocar la estructura basica del html header main body y footer-->
+  
+
+    <!--creo un contenedor (cajoncito) etiqueta DIV y creo un input que es una entrada que suministra el usuario-->
+    <div>
+        <div class="container col-xl-4 col-md-6 bg-light p-2 mt-3 rounded border border-blue"></div>
+        <div class="row border dark"></div>
+        <div class="col-12 border-dark"></div>
+        <h1> Formulario de Registro</h1>
+        <div class="mb-3"></div>
+
+        <div class="form-group">   
+        <Label for="Nombre Completo" class="form-label">Nombre completo</Label>
+    <!--label es una etiqueta de comentario para el input (numero, nombre, correo, contraseña) -->
+        <input type="text" class="form-control" 
+    id="nombreCompleto" placeholder="Ingrese aquí su nombre" id="nombreCompleto"/>
+    </div>
+
+    <div class="form-group">
+        <div class="mb-3"></div>
+        <Label for="correo" class="form-label">Correo electrónico</Label>
+        <input type="email" class="form-control" 
+        id="correo" placeholder="Ingrese aquí su e-mail" id="correo"/>
+        </div>
+
+        <div class="form-group">
+        <div class="mb-3">
+            <Label for="contrasena" class="form-label">Contraseña</Label>
+        <input type="password" class="form-control" 
+        id="contrasena" placeholder="Ingrese aquí su contraseña" id="contrasena"/>
+        </div>
+
+    <!--etiqueta placeholder muestra un texto en sombra que al ejecutarse se esconde-->
+    <!--para dar funcionalidad al boton debo llamar un EVENTO ONCLICK que significa darle clic al boton-->
+
+    <div class="mb-3">
+        <button type="sumbit" class="btn btn-primary mb-3" onclick="registrarUsuario()">Registrar</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+</main>
+
+<footer>
+
+<p> Todos los derechos reservados - Creado por Lucila Vargas Garay
+</p>
+</footer>
 </body>
 </html>
-
-<!--copiar y pegar menu de navegacion - codigo-->
-
-<!--hacer ingreso segun registro del sitio web
-Debe tener:
-formulario de registro
-*preguntar al usuario nombre completo
-*Preguntar al usuario su email
-*preguntar al usuario su contraseña con boton que dice registrar-->
-
-<!--copiar y pegar footer - codigo-->
